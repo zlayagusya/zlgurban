@@ -9,6 +9,7 @@ print('Deleted value:', a)
 my_set = {1,1,2,3,'manager','manager', 1.5,'sister',(1,2,3),(1,2,3)}
 print('Set:', my_set)
 my_set.add('mother')
+my_set.add(34.516)
 print('Modified set:',my_set)
 my_set.remove('sister')
 print('Deleted value:', my_set)
